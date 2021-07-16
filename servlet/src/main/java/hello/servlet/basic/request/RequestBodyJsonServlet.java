@@ -22,11 +22,14 @@ public class RequestBodyJsonServlet extends HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         ServletInputStream inputStream = request.getInputStream();
         String messageBody = StreamUtils.copyToString(inputStream, StandardCharsets.UTF_8);
+
         System.out.println("messageBody = " + messageBody);
 
         HelloData helloData = objectMapper.readValue(messageBody, HelloData.class);
-        System.out.println("helloData.Username = " + helloData.getUsername());
-        System.out.println("helloData.Age = " + helloData.getAge());
+
+        System.out.println("helloData.username = " + helloData.getUsername());
+        System.out.println("helloData.age = " + helloData.getAge());
+
         response.getWriter().write("ok");
     }
 }
