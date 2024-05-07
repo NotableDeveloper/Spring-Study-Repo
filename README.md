@@ -1,2 +1,6 @@
-# Spring
-spring study repository
+# 소개
+Spring과 관련한 공부한 것들을 모아놓은 저장소입니다. <br/>
+브랜치 별로 서로 다른 예제 코드가 작성되어 있습니다.
+
+## Branch
+
