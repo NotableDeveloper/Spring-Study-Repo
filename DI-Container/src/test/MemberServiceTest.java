@@ -1,14 +1,21 @@
 package test;
 
+import config.AppConfig;
 import member.Grade;
 import member.Member;
 import member.MemberService;
-import member.MemberServiceImpl;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 public class MemberServiceTest {
-    MemberService memberService = new MemberServiceImpl();
+    AppConfig appConfig = new AppConfig();
+    MemberService memberService;
+
+    @BeforeEach
+    void setup(){
+        memberService = appConfig.memberService();
+    }
 
     @Test
     void join(){
