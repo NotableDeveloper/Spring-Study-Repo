@@ -1,7 +1,7 @@
-package discount;
+package org.example.springshop.discount;
 
-import member.Grade;
-import member.Member;
+import org.example.springshop.member.Grade;
+import org.example.springshop.member.Member;
 
 public class FixDiscountPolicy implements DiscountPolicy {
     private int discountFixAmount = 1000;

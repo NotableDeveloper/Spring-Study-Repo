@@ -1,4 +1,4 @@
-package member;
+package org.example.springshop.member;
 
 public class MemberServiceImpl implements MemberService {
     private MemberRepository memberRepository;

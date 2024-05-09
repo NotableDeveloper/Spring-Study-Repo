@@ -1,7 +1,8 @@
-package discount;
+package org.example.springshop.discount;
 
-import member.Grade;
-import member.Member;
+
+import org.example.springshop.member.Grade;
+import org.example.springshop.member.Member;
 
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10;

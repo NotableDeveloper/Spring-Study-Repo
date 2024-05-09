@@ -1,4 +1,4 @@
-package member;
+package org.example.springshop.member;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,13 +1,14 @@
-package config;
+package org.example.springshop.config;
 
-import discount.DiscountPolicy;
-import discount.FixDiscountPolicy;
-import discount.OrderService;
-import discount.OrderServiceImpl;
-import member.MemberRepository;
-import member.MemberService;
-import member.MemberServiceImpl;
-import member.MemoryMemberRepository;
+
+import org.example.springshop.discount.DiscountPolicy;
+import org.example.springshop.discount.FixDiscountPolicy;
+import org.example.springshop.discount.OrderService;
+import org.example.springshop.discount.OrderServiceImpl;
+import org.example.springshop.member.MemberRepository;
+import org.example.springshop.member.MemberService;
+import org.example.springshop.member.MemberServiceImpl;
+import org.example.springshop.member.MemoryMemberRepository;
 
 public class AppConfig {
     public MemberService memberService() {

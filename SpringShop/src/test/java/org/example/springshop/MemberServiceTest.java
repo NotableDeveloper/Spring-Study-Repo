@@ -1,12 +1,13 @@
-package test;
+package org.example.springshop;
 
-import config.AppConfig;
-import member.Grade;
-import member.Member;
-import member.MemberService;
-import org.junit.jupiter.api.Assertions;
+import org.example.springshop.config.AppConfig;
+import org.example.springshop.member.Grade;
+import org.example.springshop.member.Member;
+import org.example.springshop.member.MemberService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class MemberServiceTest {
     AppConfig appConfig = new AppConfig();
@@ -14,7 +15,7 @@ public class MemberServiceTest {
 
     @BeforeEach
     void setup(){
-        memberService = appConfig.memberService();
+        this.memberService = appConfig.memberService();
     }
 
     @Test
@@ -24,6 +25,7 @@ public class MemberServiceTest {
         memberService.join(member);
         Member findMember = memberService.findMember(1L);
 
-        Assertions.assertEquals(findMember, member);
+        assertThat(findMember).isEqualTo(member);
     }
+
 }

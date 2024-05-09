@@ -1,4 +1,4 @@
-package member;
+package org.example.springshop.member;
 
 public interface MemberRepository {
     void save(Member member);

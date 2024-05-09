@@ -1,4 +1,4 @@
-package member;
+package org.example.springshop.member;
 
 public interface MemberService {
     void join(Member member);

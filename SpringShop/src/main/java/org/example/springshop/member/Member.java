@@ -1,4 +1,4 @@
-package member;
+package org.example.springshop.member;
 
 public class Member {
     private Long id;

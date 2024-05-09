@@ -1,12 +1,11 @@
-package discount;
+package org.example.springshop.discount;
 
-import member.Member;
-import member.MemberRepository;
-import member.MemoryMemberRepository;
+import org.example.springshop.member.Member;
+import org.example.springshop.member.MemberRepository;
 
 public class OrderServiceImpl implements OrderService {
-    private MemberRepository memberRepository = new MemoryMemberRepository();
-    private DiscountPolicy discountPolicy = new FixDiscountPolicy();
+    private MemberRepository memberRepository;
+    private DiscountPolicy discountPolicy;
 
     public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy){
         this.memberRepository = memberRepository;
