@@ -1,4 +1,4 @@
-package org.example.springshop;
+package org.example.springshop.service;
 
 import org.example.springshop.config.AppConfig;
 import org.example.springshop.member.Grade;

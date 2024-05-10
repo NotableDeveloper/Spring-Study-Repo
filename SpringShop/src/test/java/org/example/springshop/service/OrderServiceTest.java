@@ -1,6 +1,5 @@
-package org.example.springshop;
+package org.example.springshop.service;
 
-import org.assertj.core.api.Assertions;
 import org.example.springshop.config.AppConfig;
 import org.example.springshop.discount.Order;
 import org.example.springshop.discount.OrderService;
