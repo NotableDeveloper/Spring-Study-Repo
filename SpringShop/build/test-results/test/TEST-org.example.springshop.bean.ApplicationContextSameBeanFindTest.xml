@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springshop.bean.ApplicationContextSameBeanFindTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-10T02:25:40" hostname="SEONGJIN" time="0.133">
+  <properties/>
+  <testcase name="타입으로 조회시 같은 타입이 둘 이상 있으면, 중복 오류가 발생한다" classname="org.example.springshop.bean.ApplicationContextSameBeanFindTest" time="0.133"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
