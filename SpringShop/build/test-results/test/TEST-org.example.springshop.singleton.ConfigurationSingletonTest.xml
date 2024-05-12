@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springshop.singleton.ConfigurationSingletonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-12T06:22:52" hostname="SEONGJIN" time="0.026">
+  <properties/>
+  <testcase name="configurationDeep()" classname="org.example.springshop.singleton.ConfigurationSingletonTest" time="0.011"/>
+  <testcase name="configurationTest()" classname="org.example.springshop.singleton.ConfigurationSingletonTest" time="0.014"/>
+  <system-out><![CDATA[bean = class org.example.springshop.config.AppConfig$$SpringCGLIB$$0
+memberService -> memberRepository = org.example.springshop.member.MemoryMemberRepository@4cffd3fd
+orderService -> memberRepository = org.example.springshop.member.MemoryMemberRepository@4cffd3fd
+memberRepository = org.example.springshop.member.MemoryMemberRepository@4cffd3fd
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
