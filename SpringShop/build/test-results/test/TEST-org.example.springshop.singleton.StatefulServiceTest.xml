@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springshop.singleton.StatefulServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-12T05:42:04" hostname="SEONGJIN" time="0.573">
+  <properties/>
+  <testcase name="statefulServiceSingleton()" classname="org.example.springshop.singleton.StatefulServiceTest" time="0.573"/>
+  <system-out><![CDATA[name = userA price = 10000
+name = userB price = 20000
+price = 20000
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
