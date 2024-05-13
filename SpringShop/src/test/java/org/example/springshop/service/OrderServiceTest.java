@@ -1,8 +1,8 @@
 package org.example.springshop.service;
 
 import org.example.springshop.config.AppConfig;
-import org.example.springshop.discount.Order;
-import org.example.springshop.discount.OrderService;
+import org.example.springshop.order.Order;
+import org.example.springshop.order.OrderService;
 import org.example.springshop.member.Grade;
 import org.example.springshop.member.Member;
 import org.example.springshop.member.MemberService;

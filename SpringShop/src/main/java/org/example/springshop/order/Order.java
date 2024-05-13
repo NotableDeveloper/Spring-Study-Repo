@@ -1,4 +1,4 @@
-package org.example.springshop.discount;
+package org.example.springshop.order;
 
 public class Order {
     private Long memberId;

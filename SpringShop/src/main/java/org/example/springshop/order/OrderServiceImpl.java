@@ -1,5 +1,6 @@
-package org.example.springshop.discount;
+package org.example.springshop.order;
 
+import org.example.springshop.discount.DiscountPolicy;
 import org.example.springshop.member.Member;
 import org.example.springshop.member.MemberRepository;
 

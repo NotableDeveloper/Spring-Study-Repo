@@ -1,7 +1,7 @@
 package org.example.springshop.singleton;
 
 import org.example.springshop.config.AppConfig;
-import org.example.springshop.discount.OrderServiceImpl;
+import org.example.springshop.order.OrderServiceImpl;
 import org.example.springshop.member.MemberRepository;
 import org.example.springshop.member.MemberServiceImpl;
 import org.junit.jupiter.api.Test;
