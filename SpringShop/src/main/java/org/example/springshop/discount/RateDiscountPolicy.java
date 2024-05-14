@@ -3,9 +3,9 @@ package org.example.springshop.discount;
 
 import org.example.springshop.member.Grade;
 import org.example.springshop.member.Member;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
-@ComponentScan
+@Component
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10;
 

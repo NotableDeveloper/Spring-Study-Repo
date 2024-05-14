@@ -1,11 +1,10 @@
 package org.example.springshop.member;
 
-import org.springframework.context.annotation.ComponentScan;
-
+import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
-@ComponentScan
+@Component
 public class MemoryMemberRepository implements MemberRepository {
     private static Map<Long, Member> store = new HashMap<>();
 
