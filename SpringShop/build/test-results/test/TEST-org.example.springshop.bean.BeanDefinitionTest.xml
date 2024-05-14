@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springshop.bean.BeanDefinitionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-14T04:48:45" hostname="SEONGJIN" time="0.006">
+  <properties/>
+  <testcase name="빈 설정 메타정보 확인" classname="org.example.springshop.bean.BeanDefinitionTest" time="0.006"/>
+  <system-out><![CDATA[beanDefinitionName = appConfig / beanDefinition = Generic bean: class [org.example.springshop.config.AppConfig$$SpringCGLIB$$0]; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinitionName = memberService / beanDefinition = Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=memberService; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in org.example.springshop.config.AppConfig
+beanDefinitionName = orderService / beanDefinition = Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=orderService; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in org.example.springshop.config.AppConfig
+beanDefinitionName = memberRepository / beanDefinition = Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=memberRepository; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in org.example.springshop.config.AppConfig
+beanDefinitionName = discountPolicy / beanDefinition = Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=appConfig; factoryMethodName=discountPolicy; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in org.example.springshop.config.AppConfig
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

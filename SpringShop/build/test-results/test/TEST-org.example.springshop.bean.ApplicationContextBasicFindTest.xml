@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springshop.bean.ApplicationContextBasicFindTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-05-14T04:48:45" hostname="SEONGJIN" time="0.11">
+  <properties/>
+  <testcase name="구체 타입으로 조회" classname="org.example.springshop.bean.ApplicationContextBasicFindTest" time="0.062"/>
+  <testcase name="빈 이름으로 조회X" classname="org.example.springshop.bean.ApplicationContextBasicFindTest" time="0.009"/>
+  <testcase name="빈 이름으로 조회" classname="org.example.springshop.bean.ApplicationContextBasicFindTest" time="0.001"/>
+  <testcase name="이름 없이 타입만으로 조회" classname="org.example.springshop.bean.ApplicationContextBasicFindTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

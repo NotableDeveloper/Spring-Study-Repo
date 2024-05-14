@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ApplicationContextExtendsFIndTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ApplicationContextExtendsFIndTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.example.springshop.bean.html">org.example.springshop.bean</a> &gt; ApplicationContextExtendsFIndTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.027s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">부모 타입으로 모두 조회하기 - Object</td>
+<td class="success">findAllBeanByObjectType()</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">부모 타입으로 모두 조회하기</td>
+<td class="success">findAllBeanByParentType()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">부모 타입으로 조회시, 자식이 둘 이상 있으면, 빈 이름을 지정하면 된다</td>
+<td class="success">findBeanByParentTypeBeanName()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">부모 타입으로 조회시, 자식이 둘 이상 있으면, 중복 오류가 발생한다</td>
+<td class="success">findBeanByParentTypeDuplicate()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">특정 하위 타입으로 조회</td>
+<td class="success">findBeanBySubType()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>key = org.springframework.context.annotation.internalConfigurationAnnotationProcessor value = org.springframework.context.annotation.ConfigurationClassPostProcessor@27960b1e
+key = org.springframework.context.annotation.internalAutowiredAnnotationProcessor value = org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor@643ba1ed
+key = org.springframework.context.annotation.internalCommonAnnotationProcessor value = org.springframework.context.annotation.CommonAnnotationBeanPostProcessor@3d3a1903
+key = org.springframework.context.event.internalEventListenerProcessor value = org.springframework.context.event.EventListenerMethodProcessor@26582ca
+key = org.springframework.context.event.internalEventListenerFactory value = org.springframework.context.event.DefaultEventListenerFactory@153cb763
+key = applicationContextExtendsFIndTest.TestConfig value = org.example.springshop.bean.ApplicationContextExtendsFIndTest$TestConfig$$SpringCGLIB$$0@2c3158e0
+key = rateDiscountPolicy value = org.example.springshop.discount.RateDiscountPolicy@412ebe64
+key = fixDiscountPolicy value = org.example.springshop.discount.FixDiscountPolicy@6f731759
+key = environment value = StandardEnvironment {activeProfiles=[], defaultProfiles=[default], propertySources=[PropertiesPropertySource {name='systemProperties'}, SystemEnvironmentPropertySource {name='systemEnvironment'}]}
+key = systemProperties value = {java.specification.version=17, sun.cpu.isalist=amd64, sun.jnu.encoding=MS949, org.gradle.test.worker=3, java.class.path=C:\\Users\\Gosu\\.gradle\\caches\\8.7\\workerMain\\gradle-worker.jar;C:\\workspace\\Spring\\SpringShop\\build\\classes\\java\\test;C:\\workspace\\Spring\\SpringShop\\build\\classes\\java\\main;C:\\workspace\\Spring\\SpringShop\\build\\resources\\main;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-test\\3.2.5\\c2f2d1d01ef908d04bfa367ec48d13ab15f2b16f\\spring-boot-starter-test-3.2.5.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter\\3.2.5\\a9837a876129cc6fe5f3abf1de5ec0a16faaf003\\spring-boot-starter-3.2.5.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-test-autoconfigure\\3.2.5\\678ff2604c4650db84dc7a63eb058fb322a58807\\spring-boot-test-autoconfigure-3.2.5.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-autoconfigure\\3.2.5\\6385a2c00a03edb896b2833e4bdee2ae53cd69b8\\spring-boot-autoconfigure-3.2.5.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-test\\3.2.5\\df5c1f52e00aaa749932f9e213190b8635d59a86\\spring-boot-test-3.2.5.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot\\3.2.5\\eec72431f6f56a50c9919129665ba3359ca02104\\spring-boot-3.2.5.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework.boot\\spring-boot-starter-logging\\3.2.5\\28cf3a346da7bb624381ccc21d7a27500181de63\\spring-boot-starter-logging-3.2.5.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.annotation\\jakarta.annotation-api\\2.1.1\\48b9bda22b091b1f48b13af03fe36db3be6e1ae3\\jakarta.annotation-api-2.1.1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-test\\6.1.6\\7c2662da187db28f7721ff05c9718f1e3181c847\\spring-test-6.1.6.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-context\\6.1.6\\2be30298638975efaf7fff22f1570d79b2679814\\spring-context-6.1.6.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-aop\\6.1.6\\4958f52cb9fcb3adf7e836304550de5431a9347e\\spring-aop-6.1.6.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-beans\\6.1.6\\332d80ff134420db4ebf7614758e6a02a9bd3c41\\spring-beans-6.1.6.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-expression\\6.1.6\\9c3d7f0e17a919a4ea9f087e4e2140ad39776bc8\\spring-expression-6.1.6.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-core\\6.1.6\\dea4b8e110b7b54a02a4907e32dbb0adee8a7168\\spring-core-6.1.6.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.yaml\\snakeyaml\\2.2\\3af797a25458550a16bf89acc8e4ab2b7f2bfce0\\snakeyaml-2.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\com.jayway.jsonpath\\json-path\\2.9.0\\37fe2217f577b0b68b18e62c4d17a8858ecf9b69\\json-path-2.9.0.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.xml.bind\\jakarta.xml.bind-api\\4.0.2\\6cd5a999b834b63238005b7144136379dc36cad2\\jakarta.xml.bind-api-4.0.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\net.minidev\\json-smart\\2.5.1\\4c11d2808d009132dfbbf947ebf37de6bf266c8e\\json-smart-2.5.1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.assertj\\assertj-core\\3.24.2\\ebbf338e33f893139459ce5df023115971c2786f\\assertj-core-3.24.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.awaitility\\awaitility\\4.2.1\\e56b600e0b184182ba5b2baccd2bab593a98a624\\awaitility-4.2.1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.hamcrest\\hamcrest\\2.2\\1820c0968dba3a11a1b30669bb1f01978a91dedc\\hamcrest-2.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.mockito\\mockito-junit-jupiter\\5.7.0\\ac2d6a3431747a7986b8f4abef465f72bf3a21ae\\mockito-junit-jupiter-5.7.0.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-params\\5.10.2\\359132c82a9d3fa87a325db6edd33b5fdc67a3d8\\junit-jupiter-params-5.10.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-engine\\5.10.2\\f1f8fe97bd58e85569205f071274d459c2c4f8cd\\junit-jupiter-engine-5.10.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter-api\\5.10.2\\fb55d6e2bce173f35fd28422e7975539621055ef\\junit-jupiter-api-5.10.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-engine\\1.10.2\\d53bb4e0ce7f211a498705783440614bfaf0df2e\\junit-platform-engine-1.10.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.platform\\junit-platform-commons\\1.10.2\\3197154a1f0c88da46c47a9ca27611ac7ec5d797\\junit-platform-commons-1.10.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.junit.jupiter\\junit-jupiter\\5.10.2\\831c0b86ddc2ce38391c5b81ea662b0cfdc02cce\\junit-jupiter-5.10.2.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.mockito\\mockito-core\\5.7.0\\a1c258331ab91d66863c983aff7136357e9de056\\mockito-core-5.7.0.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.skyscreamer\\jsonassert\\1.5.1\\6d842d0faf4cf6725c509a5e5347d319ee0431c3\\jsonassert-1.5.1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.xmlunit\\xmlunit-core\\2.9.1\\e5833662d9a1279a37da3ef6f62a1da29fcd68c4\\xmlunit-core-2.9.1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\ch.qos.logback\\logback-classic\\1.4.14\\d98bc162275134cdf1518774da4a2a17ef6fb94d\\logback-classic-1.4.14.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-to-slf4j\\2.21.1\\d77b2ba81711ed596cd797cc2b5b5bd7409d841c\\log4j-to-slf4j-2.21.1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\jul-to-slf4j\\2.0.13\\a3bcd9d9dd50c71ce69f06b1fd05e40fdeff6ba5\\jul-to-slf4j-2.0.13.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.springframework\\spring-jcl\\6.1.6\\84cb19b30b22feca73c2ac005ca849c5890935a3\\spring-jcl-6.1.6.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\2.0.13\\80229737f704b121a318bba5d5deacbcf395bc77\\slf4j-api-2.0.13.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\jakarta.activation\\jakarta.activation-api\\2.1.3\\fa165bd70cda600368eee31555222776a46b881f\\jakarta.activation-api-2.1.3.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\net.minidev\\accessors-smart\\2.5.1\\19b820261eb2e7de7d5bde11d1c06e4501dd7e5f\\accessors-smart-2.5.1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy\\1.14.13\\45cf516d9a23485200950549ff72b204c307fc9d\\byte-buddy-1.14.13.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\net.bytebuddy\\byte-buddy-agent\\1.14.13\\979ce25f7d3096a2e82214ba7dc972a05ce7a171\\byte-buddy-agent-1.14.13.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.objenesis\\objenesis\\3.3\\1049c09f1de4331e8193e579448d0916d75b7631\\objenesis-3.3.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\com.vaadin.external.google\\android-json\\0.0.20131108.vaadin1\\fa26d351fe62a6a17f5cda1287c1c6110dec413f\\android-json-0.0.20131108.vaadin1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\io.micrometer\\micrometer-observation\\1.12.5\\ee23704259a1aad5c8f503db4d37cdfe5352e766\\micrometer-observation-1.12.5.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\ch.qos.logback\\logback-core\\1.4.14\\4d3c2248219ac0effeb380ed4c5280a80bf395e8\\logback-core-1.4.14.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.21.1\\74c65e87b9ce1694a01524e192d7be989ba70486\\log4j-api-2.21.1.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.ow2.asm\\asm\\9.6\\aa205cf0a06dbd8e04ece91c0b37c3f5d567546a\\asm-9.6.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\org.opentest4j\\opentest4j\\1.3.0\\152ea56b3a72f655d4fd677fc0ef2596c3dd5e6e\\opentest4j-1.3.0.jar;C:\\Users\\Gosu\\.gradle\\caches\\modules-2\\files-2.1\\io.micrometer\\micrometer-commons\\1.12.5\\da45afd81a6a05267df5ddfe10438ea857e0f7d9\\micrometer-commons-1.12.5.jar;C:\\Users\\Gosu\\.gradle\\wrapper\\dists\\gradle-8.7-bin\\bhs2wmbdwecv87pi65oeuq5iu\\gradle-8.7\\lib\\plugins\\junit-platform-engine-1.8.2.jar;C:\\Users\\Gosu\\.gradle\\wrapper\\dists\\gradle-8.7-bin\\bhs2wmbdwecv87pi65oeuq5iu\\gradle-8.7\\lib\\plugins\\junit-platform-launcher-1.8.2.jar;C:\\Users\\Gosu\\.gradle\\wrapper\\dists\\gradle-8.7-bin\\bhs2wmbdwecv87pi65oeuq5iu\\gradle-8.7\\lib\\plugins\\junit-platform-commons-1.8.2.jar, java.vm.vendor=Amazon.com Inc., sun.arch.data.model=64, user.variant=, java.vendor.url=https://aws.amazon.com/corretto/, user.timezone=Asia/Seoul, java.vm.specification.version=17, os.name=Windows 11, user.country=KR, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=C:\Users\Gosu\.jdks\corretto-17.0.11\bin, sun.java.command=worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 3', jdk.debug=release, sun.cpu.endian=little, user.home=C:\Users\Gosu, user.language=ko, java.specification.vendor=Oracle Corporation, org.gradle.native=false, java.version.date=2024-04-16, java.home=C:\Users\Gosu\.jdks\corretto-17.0.11, file.separator=\, java.vm.compressedOopsMode=32-bit, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=x-windows-949, java.awt.headless=true, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=17.0.11+9-LTS, user.name=Gosu, path.separator=;, os.version=10.0, java.runtime.name=OpenJDK Runtime Environment, file.encoding=x-windows-949, java.vm.name=OpenJDK 64-Bit Server VM, java.vendor.version=Corretto-17.0.11.9.1, java.vendor.url.bug=https://github.com/corretto/corretto-17/issues/, java.io.tmpdir=C:\Users\Gosu\AppData\Local\Temp\, java.version=17.0.11, user.dir=C:\workspace\Spring\SpringShop, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, PID=10112, org.gradle.internal.worker.tmpdir=C:\workspace\Spring\SpringShop\build\tmp\test\work, sun.os.patch.level=, CONSOLE_LOG_CHARSET=x-windows-949, native.encoding=MS949, java.library.path=C:\Users\Gosu\.jdks\corretto-17.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\minikube;C:\Program Files\Kubernetes\Minikube;C:\Users\Gosu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin;;., java.vm.info=mixed mode, sharing, java.vendor=Amazon.com Inc., java.vm.version=17.0.11+9-LTS, sun.io.unicode.encoding=UnicodeLittle, java.class.version=61.0, LOGGED_APPLICATION_NAME=[SpringShop] }
+key = systemEnvironment value = {EFC_19312=1, USERDOMAIN_ROAMINGPROFILE=SeongJin, LOCALAPPDATA=C:\Users\Gosu\AppData\Local, PROCESSOR_LEVEL=6, IntelliJ IDEA=C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin;, USERDOMAIN=SeongJin, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\SEONGJIN, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, SystemDrive=C:, OneDrive=C:\Users\Gosu\OneDrive, APPDATA=C:\Users\Gosu\AppData\Roaming, USERNAME=Gosu, ProgramFiles(x86)=C:\Program Files (x86), CommonProgramFiles=C:\Program Files\Common Files, Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\minikube;C:\Program Files\Kubernetes\Minikube;C:\Users\Gosu\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin;, FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OS=Windows_NT, COMPUTERNAME=SEONGJIN, PROCESSOR_REVISION=8e0c, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\WINDOWS\system32\cmd.exe, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\Gosu, SystemRoot=C:\WINDOWS, TEMP=C:\Users\Gosu\AppData\Local\Temp, HOMEDRIVE=C:, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel, USERPROFILE=C:\Users\Gosu, TMP=C:\Users\Gosu\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, NUMBER_OF_PROCESSORS=8, windir=C:\WINDOWS, =::=::\, IDEA_INITIAL_DIRECTORY=C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin, ZES_ENABLE_SYSMAN=1}
+key = applicationStartup value = org.springframework.core.metrics.DefaultApplicationStartup@31834a2b
+key = org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry value = []
+key = messageSource value = Empty MessageSource
+key = applicationEventMulticaster value = org.springframework.context.event.SimpleApplicationEventMulticaster@44f0ff2b
+key = lifecycleProcessor value = org.springframework.context.support.DefaultLifecycleProcessor@22ead351
+key = rateDiscountPolicy value = org.example.springshop.discount.RateDiscountPolicy@33e0c716
+key = fixDiscountPolicy value = org.example.springshop.discount.FixDiscountPolicy@1d6a8386
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.7</a> at 2024. 5. 14. 오후 1:48:45</p>
+</div>
+</div>
+</body>
+</html>

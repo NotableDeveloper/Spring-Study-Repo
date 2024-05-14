@@ -1,6 +1,7 @@
 package org.example.springshop.order;
 
 import lombok.RequiredArgsConstructor;
+import org.example.springshop.annotation.MainDiscountPolicy;
 import org.example.springshop.discount.DiscountPolicy;
 import org.example.springshop.member.Member;
 import org.example.springshop.member.MemberRepository;
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Component;
 @RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService {
     private final MemberRepository memberRepository;
-    private final DiscountPolicy discountPolicy;
+    @MainDiscountPolicy private final DiscountPolicy discountPolicy;
 
     @Override
     public Order createOrder(Long memberId, String itemName, int itemPrice) {

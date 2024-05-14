@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springshop.component_scan.AutoAppConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-14T04:48:45" hostname="SEONGJIN" time="0.053">
+  <properties/>
+  <testcase name="basicScan()" classname="org.example.springshop.component_scan.AutoAppConfigTest" time="0.053"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

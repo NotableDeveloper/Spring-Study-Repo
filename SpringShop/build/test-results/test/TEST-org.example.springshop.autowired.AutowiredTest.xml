@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.example.springshop.autowired.AutowiredTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-14T02:45:39" hostname="SEONGJIN" time="0.02">
+<testsuite name="org.example.springshop.autowired.AutowiredTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-14T04:48:45" hostname="SEONGJIN" time="0.015">
   <properties/>
-  <testcase name="AutowiredOption()" classname="org.example.springshop.autowired.AutowiredTest" time="0.02"/>
+  <testcase name="AutowiredOption()" classname="org.example.springshop.autowired.AutowiredTest" time="0.015"/>
   <system-out><![CDATA[setNoBean2 = null
 setNoBean3 = Optional.empty
 ]]></system-out>

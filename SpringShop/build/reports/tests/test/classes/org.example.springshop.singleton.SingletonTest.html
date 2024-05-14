@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - AutowiredTest</title>
+<title>Test results - SingletonTest</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>AutowiredTest</h1>
+<h1>SingletonTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/org.example.springshop.autowired.html">org.example.springshop.autowired</a> &gt; AutowiredTest</div>
+<a href="../packages/org.example.springshop.singleton.html">org.example.springshop.singleton</a> &gt; SingletonTest</div>
 <div id="summary">
 <table>
 <tr>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">3</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.015s</div>
+<div class="counter">0.025s</div>
 <p>duration</p>
 </div>
 </td>
@@ -73,13 +73,27 @@
 <thead>
 <tr>
 <th>Test</th>
+<th>Method name</th>
 <th>Duration</th>
 <th>Result</th>
 </tr>
 </thead>
 <tr>
-<td class="success">AutowiredOption()</td>
-<td class="success">0.015s</td>
+<td class="success">스프링 없는 순수한 DI 컨테이너</td>
+<td class="success">pureContainer()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">싱글톤 패턴을 적용한 객체 사용</td>
+<td class="success">singletonServiceTest()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">스프링 컨테이너 내의 싱글톤 객체 조회</td>
+<td class="success">springContainer()</td>
+<td class="success">0.019s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,8 +101,13 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>setNoBean2 = null
-setNoBean3 = Optional.empty
+<pre>memberService1 = org.example.springshop.member.MemberServiceImpl@790d8fdd
+memberService2 = org.example.springshop.member.MemberServiceImpl@6403a4a5
+singletonService1 = org.example.springshop.singleton.SingletonService@3dbd7107
+singletonService2 = org.example.springshop.singleton.SingletonService@3dbd7107
+싱글톤 객체 로직 호출
+memberService1 = org.example.springshop.member.MemberServiceImpl@a90e2c1
+memberService2 = org.example.springshop.member.MemberServiceImpl@a90e2c1
 </pre>
 </span>
 </div>
