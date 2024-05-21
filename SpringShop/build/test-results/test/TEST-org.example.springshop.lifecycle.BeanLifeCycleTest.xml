@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.springshop.lifecycle.BeanLifeCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-15T01:40:06" hostname="SEONGJIN" time="0.542">
+  <properties/>
+  <testcase name="lifeCycleTest()" classname="org.example.springshop.lifecycle.BeanLifeCycleTest" time="0.542"/>
+  <system-out><![CDATA[생성자 호출, url = null
+NetworkClient.init
+connect: http://hello-spring.dev
+call: http://hello-spring.dev message = 초기화 연결 메시지
+NetworkClient.close
+close + http://hello-spring.dev
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
